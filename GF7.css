@@ -1,0 +1,50 @@
+body {
+  background-color: mintcream; 
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: #89CFF0;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 30px 70px;
+  grid-template-columns: auto auto auto;
+  background-color: #89CFF0;
+  padding: 5px;
+}
+
+.grid-item {
+  background-color: white;
+  border: 6px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: white;
+}
+
+.flex-container>div {
+  background-color: #89CFF0;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
